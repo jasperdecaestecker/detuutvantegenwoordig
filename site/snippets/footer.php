@@ -38,5 +38,6 @@
     </div>
 
   </footer>
+  <?php echo analytics(); ?>
 </body>
 </html>
