@@ -8,4 +8,6 @@ A belgian platform for young people with tinnitus
 
 This project is used to coordinate develpment on the site. Content about the 'de van tegenwoordig' is not included here.
 
-[De Tuut van Tegenwoordig](http://http://detuutvantegenwoordig.be/) 
+You can keep track of any progress about the project on our [Trello](https://trello.com/b/2CEJPYFq/tuut-van-tegenwoordig) page
+
+[De Tuut van Tegenwoordig](http://detuutvantegenwoordig.be/) 
