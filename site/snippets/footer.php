@@ -38,6 +38,6 @@
     </div>
 
   </footer>
-  <?php echo analytics(); ?>
+  <?php @echo analytics(); ?>
 </body>
 </html>
