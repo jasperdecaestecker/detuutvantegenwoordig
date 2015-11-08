@@ -16,6 +16,7 @@
     echo css('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 
     echo js('https://code.jquery.com/jquery-2.1.4.min.js');
+    echo js('assets/js/jquery.fitvids.js');
     echo js('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js');
     echo js('assets/js/main.js');
     echo css('assets/css/main.css');

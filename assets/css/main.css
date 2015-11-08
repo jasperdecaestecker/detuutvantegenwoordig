@@ -291,13 +291,14 @@ h2 {
     display: inline-block;
     float: left;
     margin: 15px 40px 15px 0;
+    width: auto;
 }
 
 .container-oordoppen article .partners_images figure {
     margin: 0;
     background-size: contain;
     flex-direction: row;
-    width: 30%;
+    width: 20%;
     align-self: center;
     background-position: center;
     margin-right: 10px;
@@ -324,7 +325,7 @@ h2 {
 }
 
 .container-oordoppen .container {
-    width: 900px !important;
+    width: 90%;
 }
 
 .oordoppen .advantages {
@@ -876,7 +877,7 @@ article.article h1 {
     margin: 0;
     display: block;
     clear: both;
-    width: 50%;
+    width: 60%;
     float: right;
     margin-top: 10px;
 }
@@ -1089,12 +1090,27 @@ article.container iframe{
 
 /* RESPONSIVE */
 
+@media (min-width: 1200px) {
+    .container article{
+        width: 33%;
+    }
+    article img{
+        width: 90%;
+    }
+}
+
 @media (max-width: 960px) {
     .home .intro p{
         font-size: 0.9em;
     }
     .home h2{
         font-size: 1em;
+    }
+    .container-oordoppen article figure{
+        width: 80%;
+    }
+    .partners{
+        width: 100%;
     }
 }
 
@@ -1133,6 +1149,12 @@ article.container iframe{
         max-width: 100%;
         margin-bottom: 10px;
     }
+    .container-oordoppen article .partners_images figure{
+        width: 30%;
+    }
+    .container-oordoppen article figure{
+        width: 100%;
+    }
    
 }
 
@@ -1153,6 +1175,9 @@ article.container iframe{
     }
     a.logo-partners {
         width: 15%;
+    }
+    .container-oordoppen article figure{
+        width: 100%;
     }
 }
 

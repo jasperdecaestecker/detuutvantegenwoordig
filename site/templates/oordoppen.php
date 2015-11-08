@@ -4,7 +4,7 @@
 
   <main class="main" role="main">
   	<div class="oordoppen">
-	    <div class="intro">
+	    <div class="intro container">
 	      <h1><?php echo $page->title()->html() ?></h1>
 	      <?php echo $page->text()->kirbytext() ?>
 	    </div>

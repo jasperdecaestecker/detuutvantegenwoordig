@@ -15,9 +15,9 @@ function ready()
 		e.preventDefault();
 		$(this).parent().next('.answer').slideToggle(100);
 		toggleChecvron($(this));
-
-
 	});
+
+	$('.container').fitVids();
 }
 
 function toggleChecvron(element){
