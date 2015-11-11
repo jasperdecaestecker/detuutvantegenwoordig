@@ -159,6 +159,14 @@ function get_data($var) {
 				</span>
 
 			</form>
+
+						 <hr>
+			 <div class="poweredBy">
+			 <div class="partnercontainer">
+				<?php echo $page->partners()->kirbytext() ?>
+			 </div>
+			 
+			</div>
 			
 	    </div>
     </div>
